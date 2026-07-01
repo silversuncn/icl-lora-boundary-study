@@ -1,0 +1,218 @@
+[
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "mrpc"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "mrpc"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "rte"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "rte"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "sst2"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "sst2"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "trec"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "trec"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "mrpc"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "mrpc"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "rte"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "rte"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "sst2"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 18,
+    "parser_failure_total": 7,
+    "parser_success_mean": 0.9984809027777778,
+    "parser_success_min": 0.99609375,
+    "task": "sst2"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "trec"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "trec"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "mrpc"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "mrpc"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "rte"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "rte"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 21,
+    "parser_failure_total": 5,
+    "parser_success_mean": 0.9990699404761905,
+    "parser_success_min": 0.99609375,
+    "task": "sst2"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 18,
+    "parser_failure_total": 16,
+    "parser_success_mean": 0.9965277777777778,
+    "parser_success_min": 0.99609375,
+    "task": "sst2"
+  },
+  {
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 21,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "trec"
+  },
+  {
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 18,
+    "parser_failure_total": 0,
+    "parser_success_mean": 1.0,
+    "parser_success_min": 1.0,
+    "task": "trec"
+  }
+]

@@ -1,0 +1,408 @@
+{
+  "crossover_cells": [
+    {
+      "best_budget": 32,
+      "best_mean_lora_minus_icl": 0.08203125,
+      "crossover_budget": 32,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "task": "rte",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": 0.09244791666666667,
+      "crossover_budget": 1,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "task": "sst2",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 16,
+      "best_mean_lora_minus_icl": 0.12369791666666667,
+      "crossover_budget": 2,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "task": "rte",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 32,
+      "best_mean_lora_minus_icl": 0.052083333333333336,
+      "crossover_budget": 8,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-4B",
+      "task": "mrpc",
+      "threshold": 0.02
+    }
+  ],
+  "lora_inference_runtime_sec_sum_est": 8334.682170058964,
+  "lora_train_runtime_sec_sum_est": 230.61600488603654,
+  "near_tie_count": 15,
+  "no_crossover_cells": [
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": -0.044270833333333336,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "task": "mrpc",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": -0.10286458333333333,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "task": "trec",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": -0.020833333333333332,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "task": "mrpc",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 32,
+      "best_mean_lora_minus_icl": -0.09635416666666667,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "task": "sst2",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": -0.08723958333333333,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "task": "trec",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 32,
+      "best_mean_lora_minus_icl": 0.0013020833333333333,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-4B",
+      "task": "rte",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 4,
+      "best_mean_lora_minus_icl": -0.00390625,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-4B",
+      "task": "sst2",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": -0.10807291666666667,
+      "crossover_budget": "",
+      "interpretation": "No LoRA practical crossover in tested budgets",
+      "model_id": "Qwen/Qwen3-4B",
+      "task": "trec",
+      "threshold": 0.02
+    }
+  ],
+  "parser_worst_cells": [
+    {
+      "method": "LoRA",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 18,
+      "parser_failure_total": 7,
+      "parser_success_mean": 0.9984809027777778,
+      "parser_success_min": 0.99609375,
+      "task": "sst2"
+    },
+    {
+      "method": "ICL",
+      "model_id": "Qwen/Qwen3-4B",
+      "n": 21,
+      "parser_failure_total": 5,
+      "parser_success_mean": 0.9990699404761905,
+      "parser_success_min": 0.99609375,
+      "task": "sst2"
+    },
+    {
+      "method": "LoRA",
+      "model_id": "Qwen/Qwen3-4B",
+      "n": 18,
+      "parser_failure_total": 16,
+      "parser_success_mean": 0.9965277777777778,
+      "parser_success_min": 0.99609375,
+      "task": "sst2"
+    },
+    {
+      "method": "ICL",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 21,
+      "parser_failure_total": 0,
+      "parser_success_mean": 1.0,
+      "parser_success_min": 1.0,
+      "task": "mrpc"
+    },
+    {
+      "method": "LoRA",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 18,
+      "parser_failure_total": 0,
+      "parser_success_mean": 1.0,
+      "parser_success_min": 1.0,
+      "task": "mrpc"
+    },
+    {
+      "method": "ICL",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 21,
+      "parser_failure_total": 0,
+      "parser_success_mean": 1.0,
+      "parser_success_min": 1.0,
+      "task": "rte"
+    },
+    {
+      "method": "LoRA",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 18,
+      "parser_failure_total": 0,
+      "parser_success_mean": 1.0,
+      "parser_success_min": 1.0,
+      "task": "rte"
+    },
+    {
+      "method": "ICL",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 21,
+      "parser_failure_total": 0,
+      "parser_success_mean": 1.0,
+      "parser_success_min": 1.0,
+      "task": "sst2"
+    }
+  ],
+  "practical_threshold": 0.02,
+  "runtime_sec_sum_by_method": {
+    "ICL": 6964.839747730024,
+    "LoRA": 8717.328502945038
+  },
+  "strongest_icl_cells": [
+    {
+      "budget": 8,
+      "ci_high": -0.29296875,
+      "ci_low": -0.37890625,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.29296875,
+      "mean_lora_minus_icl": -0.33984375,
+      "median_lora_minus_icl": -0.34765625,
+      "min_lora_minus_icl": -0.37890625,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 32,
+      "ci_high": -0.23828125,
+      "ci_low": -0.390625,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.23828125,
+      "mean_lora_minus_icl": -0.3294270833333333,
+      "median_lora_minus_icl": -0.359375,
+      "min_lora_minus_icl": -0.390625,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 16,
+      "ci_high": -0.2578125,
+      "ci_low": -0.3359375,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.2578125,
+      "mean_lora_minus_icl": -0.3059895833333333,
+      "median_lora_minus_icl": -0.32421875,
+      "min_lora_minus_icl": -0.3359375,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 32,
+      "ci_high": -0.26953125,
+      "ci_low": -0.30859375,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.26953125,
+      "mean_lora_minus_icl": -0.2916666666666667,
+      "median_lora_minus_icl": -0.296875,
+      "min_lora_minus_icl": -0.30859375,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 16,
+      "ci_high": -0.265625,
+      "ci_low": -0.27734375,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.265625,
+      "mean_lora_minus_icl": -0.2721354166666667,
+      "median_lora_minus_icl": -0.2734375,
+      "min_lora_minus_icl": -0.27734375,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 8,
+      "ci_high": -0.25390625,
+      "ci_low": -0.2890625,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.25390625,
+      "mean_lora_minus_icl": -0.2682291666666667,
+      "median_lora_minus_icl": -0.26171875,
+      "min_lora_minus_icl": -0.2890625,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 4,
+      "ci_high": -0.2265625,
+      "ci_low": -0.2734375,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.2265625,
+      "mean_lora_minus_icl": -0.2526041666666667,
+      "median_lora_minus_icl": -0.2578125,
+      "min_lora_minus_icl": -0.2734375,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "trec"
+    },
+    {
+      "budget": 8,
+      "ci_high": -0.18359375,
+      "ci_low": -0.265625,
+      "direction_by_threshold": "ICL",
+      "max_lora_minus_icl": -0.18359375,
+      "mean_lora_minus_icl": -0.22005208333333334,
+      "median_lora_minus_icl": -0.2109375,
+      "min_lora_minus_icl": -0.265625,
+      "model_id": "Qwen/Qwen3-4B",
+      "n": 3,
+      "task": "trec"
+    }
+  ],
+  "strongest_lora_cells": [
+    {
+      "budget": 2,
+      "ci_high": 0.05859375,
+      "ci_low": 0.00390625,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.05859375,
+      "mean_lora_minus_icl": 0.037760416666666664,
+      "median_lora_minus_icl": 0.05078125,
+      "min_lora_minus_icl": 0.00390625,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "sst2"
+    },
+    {
+      "budget": 32,
+      "ci_high": 0.0703125,
+      "ci_low": 0.03515625,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.0703125,
+      "mean_lora_minus_icl": 0.052083333333333336,
+      "median_lora_minus_icl": 0.05078125,
+      "min_lora_minus_icl": 0.03515625,
+      "model_id": "Qwen/Qwen3-4B",
+      "n": 3,
+      "task": "mrpc"
+    },
+    {
+      "budget": 32,
+      "ci_high": 0.09765625,
+      "ci_low": 0.0625,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.09765625,
+      "mean_lora_minus_icl": 0.08203125,
+      "median_lora_minus_icl": 0.0859375,
+      "min_lora_minus_icl": 0.0625,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "rte"
+    },
+    {
+      "budget": 1,
+      "ci_high": 0.12890625,
+      "ci_low": 0.05859375,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.12890625,
+      "mean_lora_minus_icl": 0.09244791666666667,
+      "median_lora_minus_icl": 0.08984375,
+      "min_lora_minus_icl": 0.05859375,
+      "model_id": "Qwen/Qwen3-0.6B",
+      "n": 3,
+      "task": "sst2"
+    },
+    {
+      "budget": 4,
+      "ci_high": 0.1328125,
+      "ci_low": 0.0546875,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.1328125,
+      "mean_lora_minus_icl": 0.09244791666666667,
+      "median_lora_minus_icl": 0.08984375,
+      "min_lora_minus_icl": 0.0546875,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "rte"
+    },
+    {
+      "budget": 32,
+      "ci_high": 0.12890625,
+      "ci_low": 0.0703125,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.12890625,
+      "mean_lora_minus_icl": 0.1015625,
+      "median_lora_minus_icl": 0.10546875,
+      "min_lora_minus_icl": 0.0703125,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "rte"
+    },
+    {
+      "budget": 8,
+      "ci_high": 0.12109375,
+      "ci_low": 0.07421875,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.12109375,
+      "mean_lora_minus_icl": 0.10286458333333333,
+      "median_lora_minus_icl": 0.11328125,
+      "min_lora_minus_icl": 0.07421875,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "rte"
+    },
+    {
+      "budget": 16,
+      "ci_high": 0.13671875,
+      "ci_low": 0.1015625,
+      "direction_by_threshold": "LoRA",
+      "max_lora_minus_icl": 0.13671875,
+      "mean_lora_minus_icl": 0.12369791666666667,
+      "median_lora_minus_icl": 0.1328125,
+      "min_lora_minus_icl": 0.1015625,
+      "model_id": "Qwen/Qwen3-1.7B",
+      "n": 3,
+      "task": "rte"
+    }
+  ]
+}

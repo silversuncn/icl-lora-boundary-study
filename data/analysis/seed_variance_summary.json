@@ -1,0 +1,1406 @@
+[
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.1328125,
+    "accuracy_std_across_seeds": 0.07667933262674717,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0625,
+    "accuracy_std_across_seeds": 0.03501127515559571,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.1015625,
+    "accuracy_std_across_seeds": 0.05255321893388168,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.07421875,
+    "accuracy_std_across_seeds": 0.037535248191144725,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.09375,
+    "accuracy_std_across_seeds": 0.05303492670420912,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.05078125,
+    "accuracy_std_across_seeds": 0.02658929408419549,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.05078125,
+    "accuracy_std_across_seeds": 0.029318568357285683,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.078125,
+    "accuracy_std_across_seeds": 0.039127550003428956,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.10546875,
+    "accuracy_std_across_seeds": 0.05876710466873312,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.011933790872280834,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.25390625,
+    "accuracy_std_across_seeds": 0.1283922834539554,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.13671875,
+    "accuracy_std_across_seeds": 0.06910861723810208,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.005966895436140417,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.005966895436140417,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.005966895436140417,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.07421875,
+    "accuracy_std_across_seeds": 0.03989987876574105,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.014788823817188212,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0625,
+    "accuracy_std_across_seeds": 0.03133127451957282,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0390625,
+    "accuracy_std_across_seeds": 0.020669932117692115,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.078125,
+    "accuracy_std_across_seeds": 0.04133986423538423,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.09765625,
+    "accuracy_std_across_seeds": 0.05037901594310704,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.012556836928376244,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.0078125,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.014084184669781208,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0390625,
+    "accuracy_std_across_seeds": 0.022552744890219755,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.01127637244510988,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.009830513587592123,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.012556836928376244,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.1015625,
+    "accuracy_std_across_seeds": 0.05317858816839098,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.08984375,
+    "accuracy_std_across_seeds": 0.04605400829121717,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.10546875,
+    "accuracy_std_across_seeds": 0.05284277054089329,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.11328125,
+    "accuracy_std_across_seeds": 0.06139153767774106,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0390625,
+    "accuracy_std_across_seeds": 0.021513947450336336,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.09375,
+    "accuracy_std_across_seeds": 0.05108084699461727,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.01578692142315383,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.00813150781041458,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.010334966058846057,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0390625,
+    "accuracy_std_across_seeds": 0.019661027175184243,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.009830513587592122,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.014084184669781208,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.011933790872280834,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.023867581744561665,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.02174907954230477,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.05078125,
+    "accuracy_std_across_seeds": 0.028258508351836853,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.023545756927116045,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.009830513587592123,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.01171875,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.0234375,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.03515625,
+    "accuracy_std_across_seeds": 0.01926907368092284,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.021513947450336336,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0625,
+    "accuracy_std_across_seeds": 0.03197403426512676,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.08203125,
+    "accuracy_std_across_seeds": 0.04103112306403315,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.02376079113397742,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.004510548978043951,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.004510548978043951,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.009021097956087902,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.010334966058846057,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.03515625,
+    "accuracy_std_across_seeds": 0.01926907368092284,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.013718299157360338,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0,
+    "accuracy_std_across_seeds": 0.0,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.005966895436140417,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.009021097956087902,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.005966895436140417,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.07421875,
+    "accuracy_std_across_seeds": 0.037535248191144725,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0703125,
+    "accuracy_std_across_seeds": 0.03853814736184568,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0703125,
+    "accuracy_std_across_seeds": 0.0369204345800985,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.13671875,
+    "accuracy_std_across_seeds": 0.07893460711576915,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.03125,
+    "accuracy_std_across_seeds": 0.017026948998205758,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.078125,
+    "accuracy_std_across_seeds": 0.039127550003428956,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.026009094212810127,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0703125,
+    "accuracy_std_across_seeds": 0.03767051078512873,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.05859375,
+    "accuracy_std_across_seeds": 0.031814561778308895,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.08203125,
+    "accuracy_std_across_seeds": 0.04225255400934363,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.05859375,
+    "accuracy_std_across_seeds": 0.030341615098257925,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.08203125,
+    "accuracy_std_across_seeds": 0.04225255400934363,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.078125,
+    "accuracy_std_across_seeds": 0.04009063624567878,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.01127637244510988,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.078125,
+    "accuracy_std_across_seeds": 0.039322054350368486,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.03515625,
+    "accuracy_std_across_seeds": 0.01790068630842125,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.024394523431243743,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.02376079113397742,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.009830513587592123,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.012556836928376244,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.012556836928376244,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.010334966058846057,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.011933790872280834,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.01127637244510988,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.008131507810414582,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "mrpc"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.010334966058846057,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.014084184669781208,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.0078125,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.03125,
+    "accuracy_std_across_seeds": 0.018042195912175804,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.01127637244510988,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0390625,
+    "accuracy_std_across_seeds": 0.019661027175184243,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.0067658234670659265,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.005966895436140417,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0078125,
+    "accuracy_std_across_seeds": 0.00390625,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "rte"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.01171875,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.014084184669781208,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.009021097956087902,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.00390625,
+    "accuracy_std_across_seeds": 0.0022552744890219755,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.009021097956087902,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01171875,
+    "accuracy_std_across_seeds": 0.0067658234670659265,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.015625,
+    "accuracy_std_across_seeds": 0.009021097956087902,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.009830513587592123,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.013718299157360338,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.02734375,
+    "accuracy_std_across_seeds": 0.013718299157360338,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.011933790872280834,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.03125,
+    "accuracy_std_across_seeds": 0.015625,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0234375,
+    "accuracy_std_across_seeds": 0.01171875,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "sst2"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0546875,
+    "accuracy_std_across_seeds": 0.027713276892959327,
+    "budget": 0,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.024394523431243743,
+    "budget": 1,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.06640625,
+    "accuracy_std_across_seeds": 0.036295207981162377,
+    "budget": 16,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.08984375,
+    "accuracy_std_across_seeds": 0.04976956993129269,
+    "budget": 2,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.02376079113397742,
+    "budget": 32,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.01953125,
+    "accuracy_std_across_seeds": 0.009830513587592123,
+    "budget": 4,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.08984375,
+    "accuracy_std_across_seeds": 0.051871313247505435,
+    "budget": 8,
+    "method": "ICL",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.022888536238602795,
+    "budget": 1,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.046875,
+    "accuracy_std_across_seeds": 0.026009094212810127,
+    "budget": 16,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.04296875,
+    "accuracy_std_across_seeds": 0.022888536238602795,
+    "budget": 2,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0546875,
+    "accuracy_std_across_seeds": 0.029577647634376425,
+    "budget": 32,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0625,
+    "accuracy_std_across_seeds": 0.03252603124165833,
+    "budget": 4,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  },
+  {
+    "accuracy_range_across_seeds": 0.0625,
+    "accuracy_std_across_seeds": 0.034053897996411515,
+    "budget": 8,
+    "method": "LoRA",
+    "model_id": "Qwen/Qwen3-4B",
+    "n": 3,
+    "task": "trec"
+  }
+]

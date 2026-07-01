@@ -1,0 +1,18 @@
+{
+  "best_negative_lora_minus_icl": -0.390625,
+  "best_positive_lora_minus_icl": 0.13671875,
+  "completed_jobs": 468,
+  "expected_jobs": 468,
+  "failed_jobs": 0,
+  "gates": {
+    "aggregation_anti_cache_468": true,
+    "all_jobs_pass": true,
+    "icl_parser_success_ge_95": true,
+    "lora_n32_complete": true,
+    "no_fp16": true,
+    "no_test_split": true,
+    "required_jobs_equal_468": true
+  },
+  "parser_success_min_icl": 0.99609375,
+  "status": "PASS"
+}

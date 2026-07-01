@@ -1,0 +1,13 @@
+model_id,task,threshold,crossover_budget,best_budget,best_mean_lora_minus_icl,interpretation
+Qwen/Qwen3-0.6B,mrpc,0.02,,1,-0.044270833333333336,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-0.6B,rte,0.02,32,32,0.08203125,LoRA crosses threshold
+Qwen/Qwen3-0.6B,sst2,0.02,1,1,0.09244791666666667,LoRA crosses threshold
+Qwen/Qwen3-0.6B,trec,0.02,,1,-0.10286458333333333,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-1.7B,mrpc,0.02,,1,-0.020833333333333332,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-1.7B,rte,0.02,2,16,0.12369791666666667,LoRA crosses threshold
+Qwen/Qwen3-1.7B,sst2,0.02,,32,-0.09635416666666667,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-1.7B,trec,0.02,,1,-0.08723958333333333,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-4B,mrpc,0.02,8,32,0.052083333333333336,LoRA crosses threshold
+Qwen/Qwen3-4B,rte,0.02,,32,0.0013020833333333333,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-4B,sst2,0.02,,4,-0.00390625,No LoRA practical crossover in tested budgets
+Qwen/Qwen3-4B,trec,0.02,,1,-0.10807291666666667,No LoRA practical crossover in tested budgets

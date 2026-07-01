@@ -1,0 +1,110 @@
+[
+  {
+    "best_budget": 1,
+    "best_mean_lora_minus_icl": -0.044270833333333336,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "task": "mrpc",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 32,
+    "best_mean_lora_minus_icl": 0.08203125,
+    "crossover_budget": 32,
+    "interpretation": "LoRA crosses threshold",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "task": "rte",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 1,
+    "best_mean_lora_minus_icl": 0.09244791666666667,
+    "crossover_budget": 1,
+    "interpretation": "LoRA crosses threshold",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "task": "sst2",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 1,
+    "best_mean_lora_minus_icl": -0.10286458333333333,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-0.6B",
+    "task": "trec",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 1,
+    "best_mean_lora_minus_icl": -0.020833333333333332,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "task": "mrpc",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 16,
+    "best_mean_lora_minus_icl": 0.12369791666666667,
+    "crossover_budget": 2,
+    "interpretation": "LoRA crosses threshold",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "task": "rte",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 32,
+    "best_mean_lora_minus_icl": -0.09635416666666667,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "task": "sst2",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 1,
+    "best_mean_lora_minus_icl": -0.08723958333333333,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "task": "trec",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 32,
+    "best_mean_lora_minus_icl": 0.052083333333333336,
+    "crossover_budget": 8,
+    "interpretation": "LoRA crosses threshold",
+    "model_id": "Qwen/Qwen3-4B",
+    "task": "mrpc",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 32,
+    "best_mean_lora_minus_icl": 0.0013020833333333333,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-4B",
+    "task": "rte",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 4,
+    "best_mean_lora_minus_icl": -0.00390625,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-4B",
+    "task": "sst2",
+    "threshold": 0.02
+  },
+  {
+    "best_budget": 1,
+    "best_mean_lora_minus_icl": -0.10807291666666667,
+    "crossover_budget": "",
+    "interpretation": "No LoRA practical crossover in tested budgets",
+    "model_id": "Qwen/Qwen3-4B",
+    "task": "trec",
+    "threshold": 0.02
+  }
+]

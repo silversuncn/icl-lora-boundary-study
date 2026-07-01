@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15",
+  "pytorch": "2.12.1+cu130",
+  "transformers": "5.12.1",
+  "peft": "0.19.1",
+  "datasets": "5.0.0",
+  "hardware": {
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell",
+    "precision": "bf16"
+  },
+  "notes": [
+    "The released verification script checks key reported claims from CSV/JSON artifacts.",
+    "Full model execution requires local access to the listed model checkpoints and datasets."
+  ]
+}
