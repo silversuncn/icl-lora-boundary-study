@@ -4,6 +4,14 @@ Code and data for the paper *Few-Shot Prompting versus Low-Rank Adaptation for L
 
 **Authors:** Yaowen Sun, Jianting Gao, Xin Zhang
 
+## Overview
+
+This repository contains the released analysis artifacts for a controlled study
+of when in-context learning and LoRA are preferable under low-label text
+classification budgets. It provides sanitized result tables, robustness
+summaries, figures, and scripts for verifying the five-seed matrix and
+regenerating derived analysis outputs.
+
 ## Repository Structure
 
 - **`src/`** - Analysis-table, figure-generation, and public-data verification scripts.
