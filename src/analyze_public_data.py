@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 MODELS = ["Qwen/Qwen3-0.6B", "Qwen/Qwen3-1.7B", "Qwen/Qwen3-4B"]
 TASKS = ["sst2", "mrpc", "rte", "trec"]
 METHODS = ["ICL", "LoRA"]
-SEEDS = [13, 21, 42]
+SEEDS = [7, 13, 21, 42, 55]
 ICL_BUDGETS = [0, 1, 2, 4, 8, 16, 32]
 LORA_BUDGETS = [1, 2, 4, 8, 16, 32]
 MATCHED_BUDGETS = [1, 2, 4, 8, 16, 32]
@@ -446,10 +446,14 @@ def headline_patterns(ci_rows: list[dict[str, Any]], cross: list[dict[str, Any]]
 
 
 def validate_inputs(rows: list[dict[str, str]], summary: dict[str, Any]) -> None:
-    if len(rows) != 468:
-        raise AssertionError(f"expected 468 rows, got {len(rows)}")
-    if summary.get("status") != "PASS":
+    if len(rows) != 780:
+        raise AssertionError(f"expected 780 rows, got {len(rows)}")
+    if summary.get("status") not in {"PASS", "PASS_FIVE_SEED_MERGE_ANALYSIS"}:
         raise AssertionError("summary status is not PASS")
+    if int(summary.get("completed_jobs", summary.get("merged_rows", 0))) != 780:
+        raise AssertionError("summary completed row count is not 780")
+    if int(summary.get("failed_jobs", summary.get("failed_rows", 1))) != 0:
+        raise AssertionError("summary failed row count is not 0")
     if any(row["status"] != "PASS" for row in rows):
         raise AssertionError("at least one result row is not PASS")
     if sorted({row["model_id"] for row in rows}) != sorted(MODELS):

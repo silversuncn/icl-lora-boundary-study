@@ -1,18 +1,129 @@
 {
   "best_negative_lora_minus_icl": -0.390625,
   "best_positive_lora_minus_icl": 0.13671875,
-  "completed_jobs": 468,
-  "expected_jobs": 468,
+  "completed_jobs": 780,
+  "crossover_cells_at_0_02": [
+    {
+      "best_budget": 1,
+      "best_mean_lora_minus_icl": 0.04296875,
+      "crossover_budget": 1,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "task": "sst2",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 32,
+      "best_mean_lora_minus_icl": 0.06328125,
+      "crossover_budget": 32,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "task": "rte",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 8,
+      "best_mean_lora_minus_icl": 0.10078125,
+      "crossover_budget": 2,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "task": "rte",
+      "threshold": 0.02
+    },
+    {
+      "best_budget": 32,
+      "best_mean_lora_minus_icl": 0.04296875,
+      "crossover_budget": 4,
+      "interpretation": "LoRA crosses threshold",
+      "model_id": "Qwen/Qwen3-4B",
+      "task": "mrpc",
+      "threshold": 0.02
+    }
+  ],
+  "duplicate_keys": 0,
+  "expected_jobs": 780,
   "failed_jobs": 0,
   "gates": {
-    "aggregation_anti_cache_468": true,
+    "aggregation_anti_cache_780": true,
     "all_jobs_pass": true,
     "icl_parser_success_ge_95": true,
     "lora_n32_complete": true,
     "no_fp16": true,
     "no_test_split": true,
-    "required_jobs_equal_468": true
+    "required_jobs_equal_780": true
   },
-  "parser_success_min_icl": 0.99609375,
-  "status": "PASS"
+  "max_bh_adjusted_p": 1.0,
+  "merged_rows": 780,
+  "min_bh_adjusted_p": 0.09183673469387756,
+  "original_rows": 468,
+  "paired_rows": 360,
+  "parser_success_min_icl": 0.9921875,
+  "practical_threshold": 0.02,
+  "seed_expansion_rows": 312,
+  "seeds": [
+    7,
+    13,
+    21,
+    42,
+    55
+  ],
+  "status": "PASS",
+  "threshold_counts": [
+    {
+      "cells": [
+        "Qwen3-0.6B/sst2",
+        "Qwen3-0.6B/rte",
+        "Qwen3-1.7B/rte",
+        "Qwen3-4B/mrpc"
+      ],
+      "crossover_count": 4,
+      "threshold": 0.0
+    },
+    {
+      "cells": [
+        "Qwen3-0.6B/sst2",
+        "Qwen3-0.6B/rte",
+        "Qwen3-1.7B/rte",
+        "Qwen3-4B/mrpc"
+      ],
+      "crossover_count": 4,
+      "threshold": 0.01
+    },
+    {
+      "cells": [
+        "Qwen3-0.6B/sst2",
+        "Qwen3-0.6B/rte",
+        "Qwen3-1.7B/rte",
+        "Qwen3-4B/mrpc"
+      ],
+      "crossover_count": 4,
+      "threshold": 0.02
+    },
+    {
+      "cells": [
+        "Qwen3-0.6B/sst2",
+        "Qwen3-0.6B/rte",
+        "Qwen3-1.7B/rte",
+        "Qwen3-4B/mrpc"
+      ],
+      "crossover_count": 4,
+      "threshold": 0.03
+    },
+    {
+      "cells": [
+        "Qwen3-0.6B/rte",
+        "Qwen3-1.7B/rte"
+      ],
+      "crossover_count": 2,
+      "threshold": 0.05
+    },
+    {
+      "cells": [
+        "Qwen3-1.7B/rte"
+      ],
+      "crossover_count": 1,
+      "threshold": 0.1
+    }
+  ],
+  "unique_keys": 780
 }

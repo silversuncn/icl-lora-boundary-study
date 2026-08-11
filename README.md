@@ -4,11 +4,12 @@ Code and data for the paper *Few-Shot Prompting versus Low-Rank Adaptation for L
 
 **Authors:** Yaowen Sun, Jianting Gao, Xin Zhang
 
-## Overview
+## Repository Structure
 
 - **`src/`** - Analysis-table, figure-generation, and public-data verification scripts.
 - **`data/`** - Released result tables from the recovered validation/development matrix.
-- **`data/analysis/`** - Derived crossover, interval, diagnostic-test, parser, runtime, and per-cell summary tables.
+- **`data/analysis/`** - Derived crossover, interval, diagnostic-test, parser, runtime, threshold-sensitivity, and per-cell summary tables.
+- **`data/robustness/`** - Selected held-out and prompt/rank robustness audit summaries.
 - **`data/tables/`** - Generated LaTeX table snippets corresponding to the released analysis outputs.
 - **`figures/`** - Publication figures generated from the released tables.
 - **`environment.json`** - Tested local environment summary.
@@ -18,7 +19,7 @@ figures, row counts, and summary checks from sanitized CSV/JSON outputs. It
 does not include raw job directories, model checkpoints, training caches, or
 downloaded benchmark datasets.
 
-## Experiment Design
+## Experimental Setup
 
 | Dimension | Levels |
 |---|---|
@@ -27,20 +28,25 @@ downloaded benchmark datasets.
 | Methods | In-context learning (ICL), LoRA |
 | ICL budgets | 0, 1, 2, 4, 8, 16, 32 |
 | LoRA budgets | 1, 2, 4, 8, 16, 32 |
-| Seeds | 13, 21, 42 |
+| Seeds | 7, 13, 21, 42, 55 |
 | Evaluation split | Validation/development splits only |
 | Precision | bf16; fp16 not used |
 
-The released matrix contains 468 completed rows and 0 failed jobs. LoRA has no budget-0 condition.
+The released main matrix contains 780 completed rows and 0 failed jobs. It
+combines the original 468-row matrix with 312 added seed-expansion rows. LoRA
+has no budget-0 condition.
 
 ## Key Results
 
-- LoRA crosses a practical 0.02 mean-accuracy threshold in 4 of 12 model-task cells.
+- LoRA crosses a practical 0.02 mean-accuracy threshold in 4 of 12 model-task cells after five-seed aggregation.
 - The remaining 8 model-task cells show no LoRA crossover within the tested budgets.
-- Strongest LoRA-favored cell: Qwen/Qwen3-1.7B on RTE at budget 16, mean LoRA-ICL accuracy 0.1237, interval [0.1016, 0.1367].
-- Strongest ICL-favored cell: Qwen/Qwen3-0.6B on TREC at budget 8, mean LoRA-ICL accuracy -0.3398, interval [-0.3789, -0.2930].
-- No paired diagnostic reaches BH-adjusted p<0.1.
-- Minimum recovered ICL parser success is 0.99609375; 63 SST-2 ICL metrics were replaced during parser recovery.
+- Threshold sensitivity is stable through thresholds 0.00, 0.01, 0.02, and 0.03; stricter thresholds narrow the crossover set to 2 cells at 0.05 and 1 cell at 0.10.
+- Strongest LoRA-favored matched cell: Qwen/Qwen3-1.7B on RTE at budget 8, mean LoRA-ICL accuracy 0.1008, interval [0.0859, 0.1141].
+- Strongest ICL-favored matched cell: Qwen/Qwen3-0.6B on TREC at budget 32, mean LoRA-ICL accuracy -0.3227, interval [-0.3703, -0.2688].
+- BH-adjusted paired diagnostics range from 0.0918 to 1.0 and are treated as diagnostic rather than confirmatory.
+- The selected held-out audit supports the LoRA-favored direction for Qwen/Qwen3-0.6B on SST-2 and Qwen/Qwen3-1.7B on RTE, supports the ICL-favored direction for selected TREC cells, and does not confirm the Qwen/Qwen3-4B MRPC development-grid crossover.
+- The selected LoRA rank sweep over ranks 2, 4, and 8 is qualitatively stable in the audited cells, while compact ICL prompt variants can degrade accuracy.
+- Minimum ICL parser success in the five-seed released matrix is 0.9921875; 63 SST-2 ICL metrics were replaced during the original parser recovery, and the released audit tables quantify remaining unparsed outputs.
 
 ## Reproducing Verification from Released Data
 
@@ -51,10 +57,10 @@ python src/verify_results.py
 Expected output:
 
 ```text
-PASS: key paper claims verified from released artifacts
+PASS: five-seed key paper claims verified from released artifacts
 ```
 
-The verification script checks matrix size, job status, model/task/seed coverage, budget counts, parser-success floor, crossover count, headline intervals, BH-adjusted diagnostic p-values, SST-2 ICL recovery count, and method-level runtime totals.
+The verification script checks matrix size, job status, model/task/seed coverage, budget counts, parser-success floor, crossover count, threshold sensitivity, headline intervals, BH-adjusted diagnostic p-values, SST-2 ICL recovery count, and method-level runtime totals.
 
 ## Reproducing Analysis Tables and Figures
 
@@ -66,7 +72,7 @@ python -m pip install -r requirements.txt
 python src/analyze_public_data.py --output-root output
 ```
 
-Expected output includes `status: PASS`, 468 input rows, 216 paired rows, 4
+Expected output includes `status: PASS`, 780 input rows, 360 paired rows, 4
 crossover cells, regenerated CSV/JSON analysis tables, LaTeX table snippets,
 and PNG figures under `output/`.
 
@@ -84,9 +90,13 @@ python src/generate_publication_figures.py
 - `data/paired_differences.csv` - Matched-seed LoRA minus ICL comparisons.
 - `data/summary.json` - Matrix-level integrity summary.
 - `data/analysis/crossover_budget.csv` - Threshold-defined crossover table.
+- `data/analysis/threshold_sensitivity.csv` - Crossover counts under thresholds 0.00, 0.01, 0.02, 0.03, 0.05, and 0.10.
 - `data/analysis/bootstrap_lora_minus_icl_ci.csv` - Descriptive intervals.
 - `data/analysis/paired_tests_bh.csv` - Diagnostic paired tests and BH adjustment.
 - `data/analysis/runtime_summary.csv` - Local runtime summary.
+- `data/analysis/sst2_parser_recovery_audit_aggregated.csv` - Aggregated SST-2 parser/recovery audit.
+- `data/robustness/heldout_audit_results.csv` - Selected held-out audit summary.
+- `data/robustness/recipe_robustness_results.csv` - Selected prompt and LoRA-rank robustness summary.
 - `data/tables/` - Generated LaTeX table snippets for crossover, diagnostics, and runtime summaries.
 
 ## Hardware & Environment
@@ -115,7 +125,7 @@ The executed matrix used:
 - SST-2, MRPC, RTE, and TREC validation/development splits
 - ICL budgets 0, 1, 2, 4, 8, 16, and 32
 - LoRA budgets 1, 2, 4, 8, 16, and 32
-- Seeds 13, 21, and 42
+- Seeds 7, 13, 21, 42, and 55
 - LoRA rank 4, alpha 8, dropout 0.0, target modules `q_proj` and `v_proj`
 - bf16 precision; fp16 was not used
 

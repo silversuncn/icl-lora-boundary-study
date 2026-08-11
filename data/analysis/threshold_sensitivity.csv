@@ -1,0 +1,73 @@
+model_id,task,threshold,crossover_budget,best_budget,best_mean_lora_minus_icl,interpretation,crossover_cell_count_at_threshold,no_crossover_cell_count_at_threshold,crossover_cells_at_threshold
+Qwen/Qwen3-0.6B,sst2,0.00,1,1,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,mrpc,0.00,,1,-0.05390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,rte,0.00,32,32,0.06328125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,trec,0.00,,1,-0.12265625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,sst2,0.00,,1,-0.09375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,mrpc,0.00,,1,-0.0375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,rte,0.00,1,8,0.10078125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,trec,0.00,,1,-0.06953125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,sst2,0.00,,16,-0.00078125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,mrpc,0.00,1,32,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,rte,0.00,,16,-0.00390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,trec,0.00,,1,-0.10703125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,sst2,0.01,1,1,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,mrpc,0.01,,1,-0.05390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,rte,0.01,32,32,0.06328125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,trec,0.01,,1,-0.12265625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,sst2,0.01,,1,-0.09375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,mrpc,0.01,,1,-0.0375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,rte,0.01,1,8,0.10078125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,trec,0.01,,1,-0.06953125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,sst2,0.01,,16,-0.00078125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,mrpc,0.01,1,32,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,rte,0.01,,16,-0.00390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,trec,0.01,,1,-0.10703125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,sst2,0.02,1,1,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,mrpc,0.02,,1,-0.05390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,rte,0.02,32,32,0.06328125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,trec,0.02,,1,-0.12265625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,sst2,0.02,,1,-0.09375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,mrpc,0.02,,1,-0.0375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,rte,0.02,2,8,0.10078125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,trec,0.02,,1,-0.06953125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,sst2,0.02,,16,-0.00078125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,mrpc,0.02,4,32,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,rte,0.02,,16,-0.00390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,trec,0.02,,1,-0.10703125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,sst2,0.03,1,1,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,mrpc,0.03,,1,-0.05390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,rte,0.03,32,32,0.06328125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,trec,0.03,,1,-0.12265625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,sst2,0.03,,1,-0.09375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,mrpc,0.03,,1,-0.0375,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,rte,0.03,2,8,0.10078125,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-1.7B,trec,0.03,,1,-0.06953125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,sst2,0.03,,16,-0.00078125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,mrpc,0.03,16,32,0.04296875,LoRA crosses threshold,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,rte,0.03,,16,-0.00390625,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-4B,trec,0.03,,1,-0.10703125,No LoRA practical crossover in tested budgets,4,8,Qwen3-0.6B/sst2;Qwen3-0.6B/rte;Qwen3-1.7B/rte;Qwen3-4B/mrpc
+Qwen/Qwen3-0.6B,sst2,0.05,,1,0.04296875,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,mrpc,0.05,,1,-0.05390625,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,rte,0.05,32,32,0.06328125,LoRA crosses threshold,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,trec,0.05,,1,-0.12265625,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,sst2,0.05,,1,-0.09375,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,mrpc,0.05,,1,-0.0375,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,rte,0.05,2,8,0.10078125,LoRA crosses threshold,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,trec,0.05,,1,-0.06953125,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-4B,sst2,0.05,,16,-0.00078125,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-4B,mrpc,0.05,,32,0.04296875,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-4B,rte,0.05,,16,-0.00390625,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-4B,trec,0.05,,1,-0.10703125,No LoRA practical crossover in tested budgets,2,10,Qwen3-0.6B/rte;Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,sst2,0.10,,1,0.04296875,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,mrpc,0.10,,1,-0.05390625,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,rte,0.10,,32,0.06328125,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-0.6B,trec,0.10,,1,-0.12265625,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,sst2,0.10,,1,-0.09375,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,mrpc,0.10,,1,-0.0375,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,rte,0.10,8,8,0.10078125,LoRA crosses threshold,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-1.7B,trec,0.10,,1,-0.06953125,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-4B,sst2,0.10,,16,-0.00078125,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-4B,mrpc,0.10,,32,0.04296875,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-4B,rte,0.10,,16,-0.00390625,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
+Qwen/Qwen3-4B,trec,0.10,,1,-0.10703125,No LoRA practical crossover in tested budgets,1,11,Qwen3-1.7B/rte
